@@ -51,6 +51,8 @@ plt.title("Original Image")
 plt.axis('off')  # Removes axis ticks and labels
 plt.show()
 ```
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/fd25f774-f926-4084-9275-a749cf8bed5d" />
+
 ### Step 2: Draw Shapes and Add Text
 2.1 Draw a Line
 # Load the image
@@ -69,8 +71,10 @@ plt.title("Image with Line")
 plt.axis('off')  
 plt.show()
 ```
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/a3701e7c-a66d-4d8d-9ecd-6ca8ffd4befe" />
+
 ### 2.2 Draw a Circle
-# Load the image
+
 ```
 image = cv2.imread('varshan.jpeg') 
 
@@ -87,8 +91,10 @@ plt.title("Image with Circle")
 plt.axis('off')  
 plt.show()
 ```
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/ec3da661-05b6-4bd3-98d0-4d4b1194f8c3" />
+
 ### 2.3 Draw a Rectangle
-# Load the image
+
 ```image = cv2.imread('Qno. 1.jpg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
@@ -105,8 +111,10 @@ plt.title("Image with Rectangle")
 plt.axis('off')  
 plt.show()
 ```
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/9a8c0e1a-3123-4f4e-9e7b-1292578946f0" />
+
 ### 2.4 Add Text to the Image
-# Load the image
+
 ```image = cv2.imread('Qno. 1.jpg') 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
@@ -122,8 +130,10 @@ plt.title("Image with Text")
 plt.axis('off')  
 plt.show()
 ```
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/e53e7105-c503-41fb-a77d-b48441507c27" />
+
 ### Step 3: Color Space Conversion
-# Load the image
+
 ```image = cv2.imread('varshan.jpeg') 
 
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -163,9 +173,16 @@ image_hsv_to_rgb = cv2.cvtColor(image_hsv, cv2.COLOR_HSV2RGB)
 plt.imshow(image_hsv_to_rgb)
 plt.title("HSV to RGB Image")
 plt.axis("off")
+
 ```
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/ac0d9e47-d172-40e7-9953-3f34a65bdbf7" />
+
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/58839bc6-8f0f-40b4-9ad0-68d818b1a647" />
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/225fe2c5-bbaa-4052-8517-d9a117b46b5e" />
+
+
 ### Step 4: Pixel Manipulation
-# Modify a block of pixels (300x300) to white, starting from (200, 200)
+### Modify a block of pixels (300x300) to white, starting from (200, 200)
 ```image[200:500, 200:500] = [255, 255, 255]  # Rows: 200-499, Columns: 200-499
 
 # Convert BGR to RGB for displaying with Matplotlib
@@ -177,6 +194,7 @@ plt.title("Image with 300x300 White Block")
 plt.axis("off")
 plt.show()
 ```
+
 ### Step 5: Image Resizing
 ```image = cv2.imread('varshan.jpeg') 
 image.shape
@@ -195,8 +213,9 @@ plt.title("Resized Image (Half Size)")
 plt.axis("off")
 plt.show()
 ```
+<img width="493" height="409" alt="download" src="https://github.com/user-attachments/assets/9ff702f0-fa73-40d9-9fef-f38f8b4b8be4" />
+
 ### Step 6: Image Cropping
-# Load the image
 ```image = cv2.imread('varshan.jpeg')
 
 image.shape
@@ -213,6 +232,8 @@ plt.title("Cropped Region of Interest (ROI)")
 plt.axis("off")
 plt.show()
 ```
+<img width="389" height="409" alt="download" src="https://github.com/user-attachments/assets/aed3ca35-207a-4eed-8ae3-f080fd0f5457" />
+
 ### Step 7: Image Flipping
 # Load the image
 ```image = cv2.imread('varshan.jpeg')
@@ -239,6 +260,9 @@ plt.imshow(flipped_vertically_rgb)
 plt.title("Flipped Vertically")
 plt.axis("off")
 ```
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/5c887048-b2e4-4d87-a251-d793f631c15b" />
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/8963864f-e6a9-470c-9039-93ff90d1b5e8" />
+
 ## Output:
 i) Read and Display an Image.
 ii) Adjust Image Brightness.
