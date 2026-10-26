@@ -177,6 +177,7 @@ plt.axis("off")
 ```
 <img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/ac0d9e47-d172-40e7-9953-3f34a65bdbf7" />
 
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/46cfbe35-b867-43de-a3e0-1d2969948e5d" />
 <img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/58839bc6-8f0f-40b4-9ad0-68d818b1a647" />
 <img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/225fe2c5-bbaa-4052-8517-d9a117b46b5e" />
 
