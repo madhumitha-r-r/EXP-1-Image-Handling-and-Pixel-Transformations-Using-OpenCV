@@ -194,6 +194,7 @@ plt.title("Image with 300x300 White Block")
 plt.axis("off")
 plt.show()
 ```
+<img width="297" height="409" alt="download" src="https://github.com/user-attachments/assets/fde0d5cc-01a8-4fff-92d0-e93b607d5653" />
 
 ### Step 5: Image Resizing
 ```image = cv2.imread('varshan.jpeg') 
@@ -235,7 +236,7 @@ plt.show()
 <img width="389" height="409" alt="download" src="https://github.com/user-attachments/assets/aed3ca35-207a-4eed-8ae3-f080fd0f5457" />
 
 ### Step 7: Image Flipping
-# Load the image
+
 ```image = cv2.imread('varshan.jpeg')
 
 # Flip the image horizontally (left-right)
